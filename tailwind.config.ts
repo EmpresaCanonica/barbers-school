@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        abril: ['var(--font-abril-fatface)', 'serif'],
-        sourceSerif: ['var(--font-source-serif-4)', 'serif'],
+        abril: ['var(--font-abril)', 'serif'],
+        sourceSerif: ['var(--font-source)', 'serif'],
       },
       colors: {
         'primary-black': '#020F13',

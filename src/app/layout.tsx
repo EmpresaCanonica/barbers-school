@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { Abril_Fatface, Source_Serif_4 } from 'next/font/google';
 import "./globals.css";
 
-const abrilFatface = Abril_Fatface({ subsets: ['latin'],  weight: ['400'] });
-const sourceSerif4 = Source_Serif_4({ subsets: ['latin'] });
+const abrilFatface = Abril_Fatface({ subsets: ['latin'],  weight: ['400'], variable: '--font-abril', });
+const sourceSerif4 = Source_Serif_4({ subsets: ['latin'], variable: '--font-source', });
 
 export const metadata: Metadata = {
   title: "Barber's School",
