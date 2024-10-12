@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${abrilFatface.className} ${sourceSerif4.className} antialiased`}
+        className={`${abrilFatface.className} ${sourceSerif4.className}`}
       >
         {children}
       </body>
