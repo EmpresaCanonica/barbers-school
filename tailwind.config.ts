@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'img_bg_professionals': "url('/assets/bg-ourTeam.png')",
+      },
       fontFamily: {
         abril: ['var(--font-abril)', 'serif'],
         sourceSerif: ['var(--font-source)', 'serif'],
