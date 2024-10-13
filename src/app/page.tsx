@@ -5,7 +5,7 @@ import { Access } from './components/access';
 import { Graduates } from './components/graduates';
 //import { Professionals } from './components/professionals';
 //import { Benefits } from './components/benefits';
-//import { Register } from './components/register';
+import { Register } from './components/register';
 import { Footer } from './components/footer';
 
 export default function Home() {
@@ -15,6 +15,7 @@ export default function Home() {
       <Hero></Hero>
       <Access></Access>
       <Graduates></Graduates>
+      <Register></Register>
       <Footer></Footer>
     </div>
   );
