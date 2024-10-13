@@ -13,6 +13,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'img_bg_register': "url('/assets/bg-register2.jpg')",
+        'img_bg_professionals': "url('/assets/bg-ourTeam.png')",
       },
       fontFamily: {
         abril: ['var(--font-abril)', 'serif'],
