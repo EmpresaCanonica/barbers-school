@@ -6,7 +6,7 @@ import {Button} from "@nextui-org/button";
 
 export function Register() {
   return (
-    <div className='w-full mx-h-[56rem] bg-img_bg_register bg-center flex justify-center items-center my-auto mx-auto bg-repeat'>
+    <div className='w-full mx-h-[56rem] bg-img_bg_register bg-center flex justify-center items-center my-auto mx-auto bg-repeat' id='register'>
         <div className='h-full max-w-[40rem] md:w-[50%] w-full md:px-0 px-[2rem] flex flex-col justify-center items-center mx-auto'>
             <div className='w-full h-[38rem] px-[1.5rem] flex flex-col justify-between items-center my-auto mx-auto md:py-0 py-[3rem]'>
                 <div className='w-full md:text-left text-center'>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export function Professionals() {
   return (
-    <div className='w-full h-[64rem] bg-img_bg_professionals bg-cover justify-center flex items-center my-auto '>
+    <div className='w-full h-[64rem] bg-img_bg_professionals bg-cover justify-center flex items-center my-auto' id="team">
         <div className='md:w-[58.5rem] w-full md:mx-auto mx-[2rem] md:h-[40rem] md:py-0 py-[2rem] h-full flex flex-col items-center justify-between '>
         
             <div className='text-white w-full'>

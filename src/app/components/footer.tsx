@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Footer() {
     return (
-        <div className="w-full md:h-[20rem] h-full bg-primary-black flex justify-center items-center px-[2rem]">
+        <div className="w-full md:h-[20rem] h-full bg-primary-black flex justify-center items-center px-[2rem]" id="contact">
             <div className="w-[76rem] md:flex-row flex-col flex justify-between items-center md:h-[11rem] h-full py-[4rem] md:py-0 mx-auto my-auto gap-y-[4rem]">
                 <div>
                     <a href='#' >

@@ -1,14 +1,14 @@
 import { Quotes } from "./quotes";
-import Julian from "@/../public/assets/feedbacks-profiles/julian.jpg"
-import Marcio from "@/../public/assets/feedbacks-profiles/Marcio.jpg"
-import Reginaldo from "@/../public/assets/feedbacks-profiles/reginaldo.jpg";
+import Julian from "../../../public/assets/feedbacks-profiles/julian.jpg"
+import Marcio from "../../../public/assets/feedbacks-profiles/Marcio.jpg"
+import Reginaldo from "../../../public/assets/feedbacks-profiles/reginaldo.jpg";
 
 export function Graduates() {
     return (
-        <div className="flex flex-col justify-center items-center w-full max-w-[1280px] mx-auto my-10 gap-24">
-            <div className="flex flex-col items-center justify-center text-center max-w-[936px] gap-4">
-                <h1 className="text-3xl font-abril">Feedbacks: Alunos de Sucesso!</h1>
-                <p className="font-source text-xl font-light">Confira o que nossos alunos dizem sobre sua experiência!
+        <div className="flex flex-col justify-center items-center w-full max-w-[1280px] mx-auto my-10 gap-24 px-8" id="graduates">
+            <div className="flex flex-col items-center justify-center text-left md:text-center max-w-[936px] gap-4">
+                <h1 className="text-2xl md:text-3xl font-abril font-bold">Feedbacks: Alunos de Sucesso!</h1>
+                <p className="font-source text-base md:text-xl font-light">Confira o que nossos alunos dizem sobre sua experiência!
                     Aqui, você encontra depoimentos sinceros de quem já passou pelo nosso curso de barbeiro e agora está preparado para transformar seu futuro.
                     Acreditamos que cada opinião nos ajuda a melhorar continuamente e garantir uma formação completa e de qualidade.</p>
             </div>

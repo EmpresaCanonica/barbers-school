@@ -4,7 +4,7 @@ import Button from "./button";
 
 export function Hero() {
     return (
-        <section className="relative">
+        <section className="relative" id="home">
             <div className="absolute inset-0 z-0">
                 <div
                     className="w-full h-full bg-cover bg-center"
@@ -20,13 +20,14 @@ export function Hero() {
                         </h1>
                         <Button
                             name='QUERO ME MATRICULAR'
-                            link='/register'
+                            link='#register'
                         />
                     </div>
                 </div>
                 <div className="flex justify-center items-center relative z-10 py-8">
                     <button>
                         <Image src="/icons/arrow-button.svg" alt="Conheça mais!" width={50} height={50}></Image>
+                        <link href="#access" />
                     </button>
                 </div>
             </div>
