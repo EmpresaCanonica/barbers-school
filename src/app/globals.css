@@ -6,7 +6,3 @@
   --font-abril: 'Abril Fatface', serif;
   --font-source: 'Source Serif 4', serif;
 }
-
-body {
-  @apply font-sourceSerif; /* Aplica a fonte padrão do body */
-}
