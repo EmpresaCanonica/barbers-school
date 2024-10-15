@@ -4,6 +4,7 @@ import React from 'react'
 import Image from 'next/image'
 import {Button} from "@nextui-org/button";
 
+
 export function Register() {
   return (
     <div className='w-full mx-h-[56rem] bg-img_bg_register bg-center flex justify-center items-center my-auto mx-auto bg-repeat' id='register'>
@@ -68,11 +69,12 @@ export function Register() {
                 <Button className='bg-primary-yellow w-[60%]'>
                     Inscrever-se
                 </Button>
+               
                 
             </div>
         </div>
         <div className='h-full w-[50%]  md:flex hidden  '>
-            <a href='#' >
+            <a >
                     <Image
                         className='h-full w-full max-w-[50rem]'
                         alt='https://www.freepik.com/free-photo/man-barbershop-salon-doing-haircut-beard-trim_7377929.htm#fromView=search&page=1&position=2&uuid=92654744-56b6-494c-977f-cbad3658c8d3'
