@@ -1,4 +1,4 @@
-import { Avatar, AvatarGroup, AvatarIcon } from "@nextui-org/avatar";
+import { Avatar} from "@nextui-org/avatar";
 import { RiDoubleQuotesR } from "react-icons/ri";
 
 type QuoteProps = {
